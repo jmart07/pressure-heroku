@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Feed the dog",
+        "dueDate": "2019-12-01 21:30",
+        "notes": "make sure to feed Felix"
+    },
+    {
+        "name": "Wash the car",
+        "dueDate": "2019-12-02 12:00"
+    },
+    {
+        "name": "Register for class",
+        "dueDate": "2019-11-30 8:45",
+        "notes": "English 101, Maths 102, Poetry 301"
+    },
+    {
+        "name": "Finish Christmas shopping",
+        "dueDate": "2019-11-24 22:00",
+        "notes": "budget is $45.00"
+    },
+    {
+        "name": "Celebrate New Years",
+        "dueDate": "2020-01-01 0:00:00"
+    },
+    {
+        "name": "today 1",
+        "dueDate": "2019-11-27 11:15",
+        "notes": "this is today"
+    },
+    {
+        "name": "today 2",
+        "dueDate": "2019-11-27 11:30",
+        "notes": "this is also today"
+    }
+]

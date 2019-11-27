@@ -1,0 +1,21 @@
+<%- include("../template/header.ejs") %>
+<%- include("../template/nav.ejs") %>
+
+<body>
+    <h1>All Items</h1>
+        <div class="container-list">
+            <% //make div item wrapped in a for each task %>
+            <% tasks.map((task, i) => { %>
+
+            <a href="/tasks/<%= task._id %>">
+                <div class="list" id="<%= i %>">
+                    <p>
+                        <%= task.name %>                   
+                        <%= task.dueDate.toLocaleDateString() %>
+                        <%= task.dueDate.toLocaleTimeString() %>
+                    </p>
+                </div>
+            </a>
+        <% }); %>
+    </div>
+</body>
